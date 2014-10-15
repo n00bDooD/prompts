@@ -1,5 +1,33 @@
 #!/bin/bash
 
+function promptreset {
+	unset -v\
+	black\
+	red\
+	green\
+	yellow\
+	blue\
+	magenta\
+	cyan\
+	white\
+\
+	bgblack\
+	bgred\
+	bggreen\
+	bgyellow\
+	bgblue\
+	bgmagenta\
+	bgcyan\
+	bgwhite\
+\
+	bold\
+	hbright\
+	beg_underline\
+	end_underline\
+\
+	reset
+}
+
 # Foreground (text) colors
 black="\[$(tput setaf 0)\]"
 red="\[$(tput setaf 1)\]"
