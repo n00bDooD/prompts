@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-function promptreset {
+promptreset() {
 	unset -v\
 	black\
 	red\
