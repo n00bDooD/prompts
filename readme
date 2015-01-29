@@ -1,0 +1,7 @@
+Because i was tired of doing the whole 'how do i get my ansi color codes right' over and over, i wrote a shell script that sets the proper variables for it.
+
+
+Howto:
+1. Dump the files in a directorty (I have chosen '~/.prompts/')
+2. 'source' the desired prompt.. (exaple from my .bashrc: 'source ~/.prompts/default.sh')
+
